@@ -1,15 +1,7 @@
-a=5
-b=7
-print(a+b)
+number_1= int(input('Введите первое число: '))
+input('Введите операцию')
+number_2= int(input('Введите второе число: '))
 
-a=9
-b=5
-print(a-b)
-
-a=2
-b=5
-print(a*b)
-
-a=20
-b=4
-print(a/b)
+#Сложение
+print('{}+{}= '.format(number_1, number_2))
+print(number_1+number_2)
