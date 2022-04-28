@@ -3,5 +3,13 @@ input('Введите операцию')
 number_2= int(input('Введите второе число: '))
 
 #Сложение
-print('{}+{}= '.format(number_1, number_2))
 print(number_1+number_2)
+
+#Вычитание
+print(number_1-number_2)
+
+#Умножение
+print(number_1*number_2)
+
+#Деление
+print(number_1/number_2)
