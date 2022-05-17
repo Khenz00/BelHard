@@ -10,6 +10,6 @@ class Phone:
         return self.brand, self.model, self.year
     def __str__(self):
         return f'Бренд {self.brand}, Модель {self.model}, Год {self.year}'
-i = Phone('Андрей', 'Apple', '13', 2021)
-print(i)
-print(i.receive_call())
+d = Phone('Андрей', 'Apple', '13', 2021)
+print(d)
+print(d.receive_call())
